@@ -1,0 +1,24 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Github Opener",
+  "description": "Open Github repository",
+  "developer_name": "Paulo Félix",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "kw",
+      "type": "keyword",
+      "name": "Github Opener",
+      "default_value": "gh"
+    },
+    {
+      "id": "api_key",
+      "type": "input",
+      "name": "Github API Token",
+      "default_value": ""
+    }
+  ]
+}
